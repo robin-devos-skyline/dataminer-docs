@@ -274,11 +274,9 @@ Conditions using alarm statistics:
 <A>or<B>-A|View:myView|#MinorServices|>0-B|Element:myElement|Property:Enabled|=true
 ```
 
-Conditions using the target "Value":
+Conditions using the target "Value", allowing the use of session variables:
 
 ```txt
-<A>-A|Value|10|<=20
-<A>-A|Value|5|>2
 <A>-A|Value|[var:MyVar01]|>=[var:MyVar02]
 ```
 
