@@ -31,7 +31,7 @@ If a **custom replication factor** is required, you can configure this manually.
 
 ## Consistency Level
 
-The **consistency level** is an setting on query level that helps decide when a query succeeds or fails. It specifies the number of replicas that need to respond before the client considers a response acceptable. More specifically, the consistency level answers the following question: Out of x replicas of the data (depending on the replication factor), how many need to respond for a query to be successful?
+The **consistency level** is a setting on query level that helps decide when a query succeeds or fails. It specifies the number of replicas that need to respond before the client considers a response acceptable. More specifically, the consistency level answers the following question: Out of x replicas of the data (depending on the replication factor), how many need to respond for a query to be successful?
 
 DataMiner uses the same consistency level for all its queries to the Cassandra database. If a **custom consistency level** is required, you can configure this in *DB.xml*. For more information, see [Customizing the consistency level of the Cassandra cluster](xref:Migrating_the_general_database_to_a_DMS_Cassandra_cluster#customizing-the-consistency-level-of-the-cassandra-cluster)
 
