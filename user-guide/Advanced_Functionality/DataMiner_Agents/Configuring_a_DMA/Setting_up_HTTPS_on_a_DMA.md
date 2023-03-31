@@ -99,7 +99,7 @@ Redirecting HTTP traffic to HTTPS is recommended when external systems (or clien
 
    1. Under *Inbound rules*, select *Blank rule*, and click *OK*.
 
-   1. Under *Pattern*, fill in the following pattern: *(.\*)*
+   1. Under *Pattern*, fill in the following pattern (include the parenthesis): *(.\*)*
 
    1. Under *Conditions*, click *Add*, and add the following condition:
 
