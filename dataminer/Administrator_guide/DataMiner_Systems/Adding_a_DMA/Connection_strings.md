@@ -41,10 +41,10 @@ In some existing setups, connection strings are also used in the cases below. Ho
 
 ## How can you configure connection strings?
 
-At present, there are two places where connection strings can be configured:
+At present, connection strings can be configured in 2 ways:
 
-- Via **SLNetClientTest tool**: see [Editing the connection string between two DataMiner Agents](xref:SLNetClientTest_editing_connection_string).
-- Via redirects in **DMS.xml**: see [Redirects subtag](xref:DMS_xml#redirects-subtag).
+- Via **SLNetClientTest tool** (recommended): see [Editing the connection string between two DataMiner Agents](xref:SLNetClientTest_editing_connection_string).
+- Directly in **DMS.xml**: see [Redirects subtag](xref:DMS_xml#redirects-subtag).
 
 In practice, connection strings are read and consumed by the software directly from *DMS.xml*. As such, configuring these in SLNetClientTest tool have exactly the same effect as if they were configured in *DMS.xml*.
 
